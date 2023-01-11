@@ -1,0 +1,589 @@
+.Grid-Container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    'menu header header'
+    'menu main right'
+    'menu footer right';
+  grid-template-columns: 70px 1fr 60px;
+  grid-template-rows: 65px 1fr 92px;
+  gap: 9px;
+  background: #F9F9F9;
+  opacity: 1;
+
+}
+
+.Grid-Container-clicked {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-areas:
+    'menu header header'
+    'menu main right'
+    'menu footer right';
+
+  grid-template-columns: 65px 1fr 450px;
+  grid-template-rows: 65px 1fr 78px;
+  gap: 2px;
+  padding: 2px;
+
+  background: #F9F9F9 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+}
+
+.paginate-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+
+}
+
+.pagination-editor {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 20px;
+  padding-top: 10px;
+}
+
+.paginate-sec-1 {
+  width: 188px;
+  text-align: left;
+  font: normal normal normal 20px Louis George Café;
+  letter-spacing: 0px;
+  color: #112949;
+  opacity: 1;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.date-section {
+  width: 195px;
+  /* height: 19px; */
+  text-align: right;
+  font: normal normal normal 16px Louis George Café;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  padding-top: 10px;
+}
+
+#pagination__dis{
+  margin-left: 109px;
+}
+
+.save-submitt {
+
+  margin-right: 14px;
+  display: flex;
+  column-gap: 10px;
+
+}
+
+.sub12 {
+  width: 90px;
+  height: 38px;
+  background: #ea7b2c 0% 0% no-repeat padding-box;
+  border: 1px solid #ea7b2c;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.sub11 {
+  /* width: 42px; */
+  height: 24px;
+  text-align: center;
+  font: normal normal normal 20px Louis George Café;
+  letter-spacing: 0px;
+  color: #ea7b2c;
+  opacity: 1;
+  border: none;
+  /* margin-right: 20px; */
+  padding-top: 6px;
+  background: none;
+}
+
+
+
+.save-submitt .editor-card-clicked {
+  display: none;
+}
+
+.img-dis {
+  display: none;
+}
+
+.img {
+  position: static;
+  opacity: 1;
+  float: left;
+  padding-left: 500px;
+  padding-top: 100px;
+
+}
+
+.img-pre {
+  text-align: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  opacity: 1;
+  font-weight: 100;
+
+  border-radius: 10px;
+}
+
+.pdf-view {
+  width: 100%;
+  height: 610px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.sentence {
+  margin-left: 20px;
+  border: none;
+}
+
+
+.editableText {
+  border: none;
+  outline: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#edit {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  opacity: 0.25;
+  margin-left: 15px;
+}
+
+#dropdown1 {
+  width: 67px;
+  height: 28px;
+  border: 1px solid var(--unnamed-color-cccccc);
+  background: orange 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  opacity: 1;
+  margin-right: 2px;
+}
+
+
+
+#info {
+  width: 48px;
+  height: 60px;
+
+  border-radius: 10px;
+  opacity: 1;
+  margin-left: 4px;
+  /* margin-top: 7px; */
+}
+
+#info:hover {
+  box-shadow: 3px 3px 3px 3px #00000029;
+}
+
+#translation {
+  width: 50px;
+  height: 60px;
+
+  border-radius: 10px;
+  opacity: 1;
+  margin-left: 3px;
+}
+
+#translation:hover {
+  box-shadow: 3px 3px 3px 3px #00000029;
+}
+
+#translation-open {
+  top: 245px;
+  margin-top: 20px;
+  left: 1865px;
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  color: whitesmoke;
+  background: transparent 0% 0% no-repeat padding-box;
+}
+
+#collection {
+  width: 50px;
+  height: 60px;
+
+  border-radius: 10px;
+  opacity: 1;
+  margin-left: 3px;
+}
+
+#collection:hover {
+  box-shadow: 3px 3px 3px 3px #00000029;
+
+}
+
+#pagination_count {
+  color: #3CC3F2
+}
+
+#forum {
+  width: 50px;
+  height: 60px;
+
+  border-radius: 10px;
+  opacity: 1;
+  margin-left: 3px;
+}
+
+#forum:hover {
+  box-shadow: 3px 3px 3px 3px #00000029;
+}
+
+.forum_icon {
+  width: 60px;
+  height: 60px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+#collection-open {
+  top: 245px;
+  margin-top: 20px;
+  left: 1865px;
+  width: 30px;
+  height: 30px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: black;
+}
+
+#spellchk {
+  width: 50px;
+  height: 60px;
+
+  border-radius: 10px;
+  opacity: 1;
+  margin-left: 3px;
+}
+
+#spellchk:hover {
+  box-shadow: 3px 3px 3px 3px #00000029;
+}
+
+.icons-editt {
+  width: 10px;
+  color: white;
+}
+
+.data-fetch {
+  color: #3cc3f2;
+}
+
+.data-fetch1 {
+  color: #ea7b2c;
+  margin-left: 60px;
+}
+
+.bar-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  opacity: 1;
+  margin-top: 20px;
+}
+
+.data-fetch2 {
+  margin-left: 91px;
+}
+
+.bar-icon-clicked {
+  margin-left: 400px;
+}
+
+.mark,
+mark {
+  background-color: #e6ff00;
+}
+
+.inner-int {
+  font-size: 15px;
+}
+
+
+
+.nav-item4 ul li {
+  overflow: auto;
+  float: right;
+  list-style: none;
+  padding: 3px 3px;
+}
+
+.nav-item4 ul li {
+  overflow: auto;
+  float: right;
+  list-style: none;
+  padding: 3px 3px;
+}
+
+
+.stats-margin {
+  margin-right: 10px;
+}
+
+#prog1 {
+  /* width: 159px;
+  height: 10px; */
+  background: #3cc3f2 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  opacity: 0.5;
+  text-align: right;
+}
+
+.prog2 {
+  /* width: 65vw;
+  height: 8px; */
+  text-align: right;
+  border: 1px solid var(--unnamed-color-cccccc);
+  background: #ea7b2c 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.prog2-clicked {
+  /* width: 50vw;
+  height: 10px; */
+  text-align: right;
+  border: 1px solid var(--unnamed-color-cccccc);
+  background: #ea7b2c 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+
+
+.stats-margin {
+  margin-right: 10px;
+}
+
+#prog1 {
+  /* width: 159px;
+  height: 10px; */
+  background: #3cc3f2 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  opacity: 0.5;
+  text-align: right;
+}
+
+.prog2 {
+  /* width: 65vw;
+  height: 8px; */
+  text-align: right;
+  border: 1px solid var(--unnamed-color-cccccc);
+  background: #ea7b2c 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.prog2-clicked {
+  /* width: 50vw;
+  height: 10px; */
+  text-align: right;
+  border: 1px solid var(--unnamed-color-cccccc);
+  background: #ea7b2c 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+
+#barchart {
+  display: flexbox;
+  text-align: right;
+  font: normal normal normal 20px Louis George Café;
+  letter-spacing: 0px;
+  opacity: 1;
+  padding-left: 20px;
+}
+
+
+
+.table__ht {
+  height: 20vh;
+}
+
+.container-1 {
+  width: 960px;
+  margin-left: 75px;
+}
+
+.sidebar {
+  display: none;
+  transition-property: opacity;
+  transition-duration: 500ms;
+}
+
+.sidebar.true {
+  opacity: 1;
+}
+
+.width1 {
+  width: 47px;
+}
+
+.clicked {
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+}
+
+.image_size {
+  width: 25px;
+  height: 25px;
+}
+
+
+.box-term {
+  width: 442px;
+  height: auto;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font-size: 20px;
+  opacity: 1;
+  padding: 5px;
+  position: absolute;
+  float: right;
+  right: 0px;
+}
+
+.editor-card {
+  grid-area: main;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 3px #00000029;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.editor-card-clicked {
+  grid-area: main;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 3px #00000029;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.text-area {
+  margin-left: 6px;
+  margin-right: 13px;
+}
+
+.text-area1 {
+  display: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.text-area2 {
+  display: none;
+}
+
+
+
+@media screen and (min-width: 1280px) {
+
+  /* .File-Information-Container{
+    max-height:660px;
+    overflow-x: hidden;
+   } */
+
+  .progressVisualFull {
+    width: 57vw;
+    height: 12px;
+    margin-top: 7px;
+  }
+
+  .progress {
+    width: 57vw;
+    height: 10px;
+    padding: 1px;
+  }
+
+  .progress-clicked {
+    /* width: 300px; */
+    height: 7px
+  }
+
+  .progressVisualFull-clicked {
+    width: 30vw;
+    height: 12px;
+  }
+
+}
+
+@media screen and (min-width: 1366px) {
+
+  /* .tab-main {
+    height: 450px;
+  } */
+
+  .progressVisualFull {
+    width: 62vw;
+    height: 10px;
+    margin-top: 8px;
+  }
+
+  .progressVisualFull-clicked {
+    /* width: 36vw; */
+    height: 10px;
+  }
+
+
+
+  .progress {
+    width: 62vw;
+    height: 7px;
+  }
+
+
+
+}
+
+.scroll {
+  overflow-y: scroll;
+}
+
+.inputbox {
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
+
+
+.save-submitt-pdf {
+  display: none;
+}
+
+.paginate-section-pdf {
+  display: none;
+}
+
+
+#myText {
+  outline: none;
+}

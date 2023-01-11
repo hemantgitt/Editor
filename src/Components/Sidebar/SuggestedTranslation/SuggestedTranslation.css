@@ -1,0 +1,212 @@
+::-webkit-scrollbar{
+  width:1px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #00000029;
+  border-radius:1rem;
+}
+
+input::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius:1rem;
+  border: 2rem solid transparent;
+  background-clip: content-box ;
+}
+
+.Suggested-Container {
+  width: 380px;
+  height: 1300px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  max-height: 89vh;
+  overflow-x: hidden;
+  font-size: 20px;
+  padding: 5px;
+  position: fixed;
+  right: 3px;
+
+}
+
+
+.Suggested-inner-Conatiner {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 3px #00000029;
+  opacity: 1;
+  right: 10px;
+  color: #112949;
+  width: 373px;
+  height: 69px;
+  padding-top: 10px;
+}
+
+
+
+#Suggested-Heading {
+
+  width: 241px;
+  text-align: left;
+  font: normal normal normal 24px/29px Louis George Café;
+  letter-spacing: 0px;
+  color: #112949;
+  opacity: 1;
+}
+
+
+.Suggest-Entire_Width {
+  max-height: 343px;
+  overflow-x: hidden;
+}
+
+.English-Section {
+  width: 166px;
+  height: 44px;
+  background: #112949 0% 0% no-repeat padding-box;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 1;
+ 
+}
+
+.Match-Section {
+  width: 82px;
+  height: 44px;
+  background: #112949 0% 0% no-repeat padding-box;
+  border: 1px solid #CCCCCC;
+  opacity: 1;
+ 
+}
+
+.Arabic-Section {
+  width: 113px;
+  height: 24px;
+  background: #112949 0% 0% no-repeat padding-box;
+  border: 1px solid #CCCCCC;
+  border-radius: 0px 10px 0px 0px;
+  opacity: 1;
+}
+
+#English-source{
+  border: none;
+  font: normal normal normal 20px Louis George Café;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+#Match-source{
+  text-align: center;
+  font: normal normal normal 20px Louis George Café;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+#Arabic-source{
+  font: normal normal normal 20px Louis George Café;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  border: none;
+}
+
+
+
+.Row-Style {
+  width: 80px;
+  height: 48px;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  opacity: 1;
+}
+
+#right {
+  text-align: left;
+}
+
+#centre {
+  text-align: center;
+}
+
+#left {
+  text-align: left;
+  font-size: 16px;
+}
+
+
+#Source-Match_font {
+  text-align: left;
+  font: normal normal normal 20px Louis George Café;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+#Source-Text_font {
+  text-align: left;
+  font: normal normal normal 20px Louis George Café;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+#match-translation_font {
+  text-align: left;
+  font: normal normal normal 20px Louis George Café;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+
+
+#Info-Text_font {
+  text-align: left;
+  font: normal normal normal 20px Louis George Café;
+  letter-spacing: 0px;
+  color: #112949;
+  opacity: 1;
+  padding-top: 15px;
+}
+
+#Info-Source_Text {
+  text-align: left;
+  font: normal normal normal 20px Louis George Café;
+  letter-spacing: 0px;
+  color: #112949;
+  opacity: 1;
+  padding-top: 15px;
+  /* line-height: 21px; */
+}
+
+#Info_Text-Target_font {
+  text-align: left;
+  font: normal normal normal 20px Louis George Café;
+  letter-spacing: 0px;
+  color: #112949;
+  opacity: 1;
+  padding-top: 15px;
+}
+
+
+
+.m-col {
+  text-align: center;
+}
+
+.r-col {
+  text-align: right;
+  padding: 5px;
+}
+
+.Test {
+  width: auto;
+  height: auto;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  opacity: 1;
+  padding: 5px;
+  overflow: hidden;
+  margin-top: 14px;
+}

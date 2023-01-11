@@ -1,0 +1,125 @@
+ .thead {
+   background: #112949 0% 0% no-repeat padding-box;
+   color: #ffffff;
+   font-size: 20px;
+   line-height: 1.5;
+   letter-spacing: 0;
+   opacity: 1;
+   font-weight: 100;
+   overflow-y: scroll;
+   border-radius: 10px;
+ }
+
+ .width1 {
+   width: 35px;
+   border: 1px solid var(--unnamed-color-cccccc);
+   border: 1px solid #CCCCCC;
+   border-radius: 0px 10px 10px 0px;
+   opacity: 1;
+
+ }
+
+ .chat {
+   color: #ea7b2c;
+   cursor: pointer;
+   opacity: 1;
+ }
+
+ .inner-int {
+   font-size: 15px;
+ }
+
+ .inputbox {
+   width: 100%;
+   height: auto;
+   border: none;
+ }
+
+ table {
+   border-collapse: collapse;
+   table-layout: fixed
+ }
+
+ table td {
+   word-wrap: break-word
+ }
+
+
+
+ .tab-main {
+   grid-area: main;
+   max-height: 55vh;
+   overflow-x: hidden;
+   border: 1px solid #cccccc;
+   margin-top: 20px;
+   border-radius: 10px;
+   font-family: Louis George Cafe;
+
+ }
+ .tab-main:-webkit-scrollbar {
+  width: 5px;
+}
+.tab-main{
+  scrollbar-width: thin;
+}
+
+
+ .tab-main-pdf {
+   grid-area: main;
+   height: 630px;
+   overflow-x: hidden;
+   border: 1px solid #cccccc;
+   margin-top: 20px;
+   border-radius: 10px;
+   scroll-behavior: auto;
+   font-family: Louis George Cafe;
+
+ }
+
+
+ .tab-main-clicked {
+   /* height: 100px; */
+   overflow-x: hidden;
+   border: 1px solid #cccccc;
+   width: auto;
+   margin-top: 20px;
+   border-radius: 10px;
+   scroll-behavior: auto;
+   font-family: Louis George Cafe;
+ }
+
+
+
+ .Source__Section {
+   width: 825px;
+   border: 1px solid var(--unnamed-color-cccccc);
+   border: 1px solid #CCCCCC;
+   opacity: 1;
+ }
+
+ .Target__Section {
+   width: 825px;
+
+   border: 1px solid var(--unnamed-color-cccccc);
+   border: 1px solid #CCCCCC;
+   opacity: 1;
+ }
+
+ .Target__Section-clicked {
+   width: 100%;
+   height: 20px;
+
+   /* UI Properties */
+   border: 1px solid var(--unnamed-color-cccccc);
+   border: 1px solid #CCCCCC;
+   opacity: 1;
+ }
+
+ .Source__Section-clicked {
+   height: 20px;
+   width: 100%;
+   border: 1px solid var(--unnamed-color-cccccc);
+   border: 1px solid #CCCCCC;
+   border-radius: 10px 0px 0px 10px;
+   opacity: 1;
+ }

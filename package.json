@@ -1,0 +1,68 @@
+{
+  "name": "translator",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.2",
+    "@mui/material": "^5.10.0",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.25.0",
+    "bootstrap": "^5.2.0",
+    "buffer": "^6.0.3",
+    "dompurify": "^2.3.10",
+    "draft-js": "^0.11.7",
+    "eslint-plugin-risxss": "^2.1.0",
+    "font-awesome": "^4.7.0",
+    "html-react-parser": "^3.0.3",
+    "media-query-react": "^1.0.4",
+    "moment": "^2.29.4",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.1.2",
+    "react-dom": "^17.0.2",
+    "react-draggable": "^4.4.5",
+    "react-highlight-words": "^0.17.0",
+    "react-hook-form": "^7.26.0",
+    "react-html-parser": "^2.0.2",
+    "react-paginate": "^8.1.2",
+    "react-pdf": "^5.7.1",
+    "react-pdf-scroll": "^1.0.0",
+    "react-query": "^3.34.19",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "react-string-replace": "^1.1.0",
+    "react-table-scrollbar": "^0.1.11",
+    "safe-buffer": "^5.2.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

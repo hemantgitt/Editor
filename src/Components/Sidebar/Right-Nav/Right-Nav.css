@@ -1,0 +1,113 @@
+.RightNav-Container {
+  grid-area: right;
+  width: 60px;
+
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: -3px -3px 3px #00000029;
+  opacity: 1;
+}
+
+.RightNav-Container-Clicked {
+  grid-area: right;
+  width: 60px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 3px 1px #00000029;
+  opacity: 1;
+}
+
+
+.nav-item2-clicked {
+  display: flex;
+  background: #112949;
+  padding: 14px;
+  margin-bottom: 10px;
+  justify-content: space-around;
+}
+
+.nav-item2 {
+  display: flex;
+  border: none;
+  padding: 20px;
+  margin-bottom: 10px;
+  justify-content: space-around;
+  /* border: #707070; */
+}
+
+.modified-button {
+  border: none;
+  background: white;
+}
+
+.modified-button-clicked {
+  background: #112949;
+  border: none;
+}
+
+.not-clicked {
+  width: 24px;
+  height: 26px;
+  background: #f8f9fa 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border: #ffffff;
+}
+
+.nav-item3 {
+  
+  padding-left: 8px;
+
+}
+.right{
+  justify-content: space-between;
+  display: flex-end;
+}
+
+.facebook {
+  width: 40px;
+  height: 50px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  padding:10px;
+  /* border : 1px solid black; */
+}
+
+.facebook:hover{
+  box-shadow: 3px 3px 3px 3px #00000029;
+
+}
+
+
+#linkedin {
+  width: 45px;
+  height: 50px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  padding:10px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+#linkedin:hover{
+  box-shadow: 3px 3px 3px 3px #00000029;
+
+}
+
+#insta {
+  width: 45px;
+  height: 50px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  padding:10px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+#insta:hover{
+  box-shadow: 3px 3px 3px 3px #00000029;
+
+}
+
+.right-cn1{
+  position: absolute;
+  bottom: 20px;
+}

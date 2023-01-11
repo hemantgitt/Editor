@@ -1,0 +1,175 @@
+.TermBase-Container {
+    width: 380px;
+    max-height: 89vh;
+    overflow: hidden;
+
+    font-size: 20px;
+    opacity: 1;
+    padding: 5px;
+    position: fixed;
+    float: right;
+    right: 7px;
+}
+
+
+.TermBase-inner-Container {
+    height: 58px;
+    padding-top: 5px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 3px 3px #00000029;
+    opacity: 1;
+    width: 373px;
+}
+
+#TermBase-Heading {
+    text-align: left;
+    font: normal normal normal 24px Louis George Café;
+    letter-spacing: 0px;
+    color: #112949;
+    opacity: 1;
+    padding: 10px;
+}
+
+.input-body {
+    display: flex;
+}
+
+#ar13 {
+    width: 44px;
+    height: 36px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px 0px 0px 10px;
+    opacity: 1;
+}
+
+
+.ar12 {
+    display: flex;
+    padding-top: 9px;
+}
+
+#ar1 {
+    width: 451px;
+    height: auto;
+    overflow-x: hidden;
+
+
+    border: 1px solid #CCCCCC;
+    border-radius: 0px 10px 10px 0px;
+    opacity: 1;
+    padding-left: 10px;
+}
+
+#ar14 {
+    width: 442px;
+    height: 44px;
+    /* UI Properties */
+    border: 1px solid var(--unnamed-color-cccccc);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CCCCCC;
+    border-radius: 12px;
+    opacity: 1;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.container .input {
+    border: 0;
+    outline: none;
+    color: #8b7d77;
+}
+
+
+
+
+.search_box{
+    margin-top:10px;
+    width: 375px;
+    height: 44px;
+    border: 1px solid var(--unnamed-color-cccccc);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    opacity: 1;
+    display: flex;
+  
+    align-items: center;
+}
+.search_box > i {
+    font-size:30px;
+    padding-bottom: 20px;
+    
+}
+
+.search_box > input{
+    flex: 0.9;
+    height:31px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.btn_common{
+    padding-left:20px;
+}
+
+a{
+    color: black;
+    cursor: pointer;
+}
+
+a:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+.search_wrap .search_box .btn.btn_common .fas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 20px;
+}
+
+.search_wrap.search_wrap_1 .search_box .btn {
+    right: 0;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 11px;
+}
+
+
+.ar13 {
+    width: 25px;
+    height: 24px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 18px Louis George Café;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    padding: 8px;
+}
+
+.ar1 {
+    width: 378px;
+    height: auto;
+    text-align: left;
+    font: normal normal normal 18px Louis George Café;
+    letter-spacing: 0px;
+    color: #112949;
+    opacity: 1;
+    /* padding: 8px; */
+    padding-top: 5px;
+}
+
+.termbase-container {
+    overflow-x: hidden;
+    height: 878px;
+}

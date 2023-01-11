@@ -1,0 +1,94 @@
+.navbar-card {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 3px #00000029;
+  opacity: 1;
+}
+
+.profile-section {
+  width: 188px;
+  height: 55px;
+  display: flex;
+  justify-content: space-around;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+  opacity: 1;
+  margin-right: 10px;
+}
+
+
+.profile-section:hover {
+  box-shadow: 5px 5px 5px #00000029;
+  transition: 1s;
+}
+
+#file {
+
+  width: 28px;
+  height: 37px;
+  /* border: 1px solid #FF6600; */
+  opacity: 1;
+  color: #FF6600;
+  padding-left: 10px;
+}
+
+#sample {
+  width: 124px;
+  height: 31px;
+  text-align: left;
+  font: normal normal normal 32px Louis George Café;
+  color: #112949;
+  margin-left:16px;
+  opacity: 1;
+  border: none;
+  background-color: #ffffff;
+}
+
+#dana {
+  width: 123px;
+  height: 24px;
+  text-align: left;
+  font: normal normal normal 20px/24px Louis George Café;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  padding-top: 15px;
+  padding-left: 4px;
+}
+
+#dana:hover {
+  color: black;
+}
+
+#img1 {
+  width: 40px;
+  height: 40px;
+  background-color:white;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+  opacity: 1;
+  border: none;
+  padding-top: 5px;
+}
+
+.nav-item ul li {
+  overflow: auto;
+  float: right;
+  list-style: none;
+  padding: 3px 3px;
+}
+
+#cardborder {
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+  margin-right: 26px;
+}
+
+#cardborder:hover {
+  box-shadow: 3px 3px 3px #00000029;
+  transition: 1s;
+}

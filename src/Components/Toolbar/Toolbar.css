@@ -1,0 +1,414 @@
+.ToolBar-Container {
+    position: relative;
+    opacity: 1;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    grid-area: main;
+    width: 1fr;
+    
+}
+
+.Tool__Mid{
+    display: flex;
+    justify-content: space-between;
+    column-gap:5px;
+    padding-top: 5px;   
+}
+
+.Tool__Mid-clicked{
+    display: flex;
+    justify-content: space-between;
+    column-gap:1px;
+    padding-top: 5px;   
+}
+
+
+.bold-italic-body{
+    display: flex;
+}
+.find-replace-body{
+    display: flex;
+}
+
+
+.previw-body{
+    display: flex;
+}
+.link-unlink-body{
+    display: flex;
+}
+
+.zoom__Counter{
+    display: flex;
+}
+.Translator__Counter{
+    display: flex;
+}
+.Tag__Counter{
+    display: flex;
+}
+
+.TOOL {
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.ToolBar-Size-container {
+    position: static;
+    opacity: 1;
+    margin: auto;
+}
+
+.ToolBar-count {
+    display: flex;
+}
+
+
+.ToolBar-all-buttons {
+    display: none;
+    position: fixed;
+}
+
+.preview {
+    position: static;
+    margin: auto;
+    float: left;
+    padding: 8px;
+    width: 83px;
+    height: 29px;
+    text-align: left;
+    font: normal normal normal 24px Louis George Café;
+    letter-spacing: 0px;
+    color: #112949;
+    opacity: 1;
+}
+
+.preview-display {
+    display: none;
+}
+
+.edit {
+    position: static;
+
+    margin: auto;
+    float: left;
+    padding: 8px;
+    width: 39px;
+    height: 29px;
+    text-align: left;
+    font: normal normal normal 24px Louis George Café;
+    letter-spacing: 0px;
+    color: #112949;
+    opacity: 1;
+}
+
+.edit-display {
+    display: none;
+}
+
+.toolbar-button {
+    width: 34px;
+    height: 34px;
+
+}
+.toolbar-button-clicked{
+    width: 24px;
+    height: 24px;
+    display: flex;
+} 
+
+
+
+#select{
+    border: none;
+    width: 30px;
+    height: 28px;
+    outline: none;
+    background-color: #EA7B2C;
+    border-radius: 5px;
+
+}
+.Tag-drop-arrow {
+    width: 16px;
+    height: 10px;
+    opacity: 1;
+}
+
+.Tag-Container {
+    display: flex;
+}
+
+#Tag-button-dropdown {
+    width: 40px;
+    height: 34px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #00000029;
+    border-radius: 0px 9px 9px 0px;
+    opacity: 1;
+}
+
+#Tag-numeric {
+    width: 6px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 17px Louis George Café;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#Remove-button {
+    border: 1px solid #00000029;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 9px 0px 0px 9px;
+    text-align: center;
+    opacity: 1;
+    margin-left: 5px;
+}
+
+#Add-button {
+    border: 1px solid #00000029;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 0px 9px 9px 0px;
+    opacity: 1;
+    margin-right: 5px;
+}
+
+#OpenNew-button {
+    /* width: 32px;
+    height: 33px; */
+    border: 1px solid #00000029;
+    /* background: #FFFFFF 0% 0% no-repeat padding-box; */
+    border-radius: 9px;
+    opacity: 1;
+    /* margin-left: 10px; */
+}
+
+#Translate-button {
+    /* width: 32px;
+    height: 32px; */
+
+    border: 1px solid #00000029;
+    border-radius: 9px 0px 0px 9px;
+    opacity: 1;
+    margin-left: 2px;
+    font: 14px;
+
+}
+
+
+.bold-span {
+    font-weight: bold;
+}
+
+#Link-button {
+
+    border: 1px solid #00000029;
+    border-radius: 9px 0px 0px 9px;
+    opacity: 1;
+    /* margin-left: 10px; */
+    font: 18px;
+
+}
+
+#Unlink-button {
+    border: 1px solid #00000029;
+    border-radius: 0px 9px 9px 0px;
+    opacity: 1;
+}
+
+#Translate-percent {
+    width: 45px;
+    height: 34px;
+   text-align:center;
+    border: 1px solid var(--unnamed-color-cccccc);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CCCCCC;
+    border-radius: 0px 10px 10px 0px;
+    opacity: 1;
+}
+
+#Bold-button {
+    border: 1px solid #00000029;
+    border-radius: 9px 0px 0px 9px;
+    opacity: 1;
+    /* margin-left: 10px; */
+}
+
+#Italic-button {
+
+    border: 1px solid #00000029;
+    opacity: 1;
+}
+
+#Underline-button {
+    border: 1px solid #00000029;
+    border-radius: 0px 9px 9px 0px;
+    opacity: 1;
+}
+
+#Undo-button {
+
+    border: 1px solid #00000029;
+    border-radius: 9px 0px 0px 9px;
+    opacity: 1;
+    /* margin-left: 10px; */
+}
+
+#Redo-button {
+   
+    border: 1px solid #00000029;
+    border-radius: 0px 9px 9px 0px;
+    opacity: 1;
+}
+
+#Find-button {
+    border: 1px solid #00000029;
+    border-radius: 9px 0px 0px 9px;
+    opacity: 1;
+    /* margin-left: 10px; */
+}
+
+#Replace-button {
+    border: 1px solid #00000029;
+    border-radius: 0px 9px 9px 0px;
+    opacity: 1;
+}
+
+#lowercase {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #00000029;
+    border-radius: 0px 9px 9px 0px;
+    opacity: 1;
+}
+
+#uppercase {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #00000029;
+    border-radius: 9px 0px 0px 9px;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+#Super-button {
+    border: 1px solid #00000029;
+    border-radius: 9px 0px 0px 9px;
+    opacity: 1;
+    /* margin-left: 15px; */
+}
+
+#Sub-button {
+    border: 1px solid #00000029;
+    border-radius: 0px 9px 9px 0px;
+    opacity: 1;
+    margin-right: 2px;
+}
+
+#Tag-button {
+    width: 40px;
+    height: 34px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px 0px 0px 10px;
+    opacity: 1;
+    /* margin-left: 10px; */
+}
+
+#percentage {
+    width: 40px;
+    height: 34px;
+    border: 1px solid var(--unnamed-color-cccccc);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CCCCCC;
+    opacity: 1;
+    text-align: center;
+}
+
+#dropdown {
+    width: 141px;
+    height: 34px;
+
+    font: normal normal normal 20px Louis George Café;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    opacity: 1;
+}
+.sentence-button{
+    border: none !important;
+    background-color: white !important;
+}
+
+.Eye {
+    float: right;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #cccccc;
+    border-radius: 9px 0px 0px 9px;
+    opacity: 1;
+    color: #112949 !important;
+    width:34px;
+    height: 34px;
+}
+.Eye-clicked{
+    background: #112949 0% 0% no-repeat padding-box;
+    color: white !important;
+    width:34px;
+    height: 34px;
+    border: 1px solid #cccccc;
+    border-radius: 9px 0px 0px 9px;
+    opacity: 1;
+}
+.Tool_Mid-clicked{
+    display: none
+}
+
+.eyeEdit {
+    float: right;
+    opacity: 1;
+    width: 34px;
+    height: 34px;
+    background: #112949 0% 0% no-repeat padding-box;
+    border: 1px solid #CCCCCC;
+    border-radius: 0px 9px 9px 0px;
+    opacity: 1;
+    color: white;
+    margin-right: 5px;
+}
+
+.eyeEdit-clicked{
+    background:  white 0% 0% no-repeat padding-box;
+    color: #112949;
+    width: 34px;
+    height: 34px;
+    border: 1px solid #CCCCCC;
+    border-radius: 0px 9px 9px 0px;
+    opacity: 1;
+}
+
+.eye {
+    margin-top: 8px;
+
+}
+
+.toolbar-button1 {
+    display: none;
+}
+
+
+.button-color {
+    color: #112949;
+    background-color: #FFFFFF;
+}
+
+.button-highlight-color {
+    color: white;
+    background-color: #112949;
+}
+
+.gray{
+    background-color: gray;
+    color: white;
+}

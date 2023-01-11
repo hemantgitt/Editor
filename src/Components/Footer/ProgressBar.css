@@ -1,0 +1,52 @@
+
+.progressVisualFull {
+  /* width: 65vw; */
+  display: flex;
+  /* change the value if you want different thickness */
+
+   
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.progressVisualPart {
+  transition: width 2s;
+  height: 9px;
+  border-radius: 9px 0px 0px 9px;
+  opacity: 1;
+  margin-bottom: 13px;
+}
+.progressVisualPart2{
+  transition: width 2s;
+  height: 9px;
+  border-radius: 9px 0px 0px 9px;
+  opacity: 1;
+  margin-bottom: 13px;
+}
+
+.progressVisualFull-clicked {
+  /* width: 49vw; */
+  display: flex;
+  
+  /* change the value if you want different thickness */
+  /* height: 6px; */
+  margin-top: 5px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.progressLabel {
+  /* Nothing here, move along */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* body {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+} */
